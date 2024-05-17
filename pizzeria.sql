@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2024. Máj 17. 16:54
+-- Létrehozás ideje: 2024. Máj 17. 17:37
 -- Kiszolgáló verziója: 10.4.32-MariaDB
 -- PHP verzió: 8.2.12
 
@@ -257,7 +257,7 @@ CREATE TABLE `pizzeria_users` (
 --
 
 INSERT INTO `pizzeria_users` (`user_id`, `username`, `password`) VALUES
-(1, 'kis ferenc', 'kisferenc');
+(2, 'teszt', 'teszt');
 
 --
 -- Indexek a kiírt táblákhoz
@@ -347,7 +347,7 @@ ALTER TABLE `pizzeria_time_logs`
 -- AUTO_INCREMENT a táblához `pizzeria_users`
 --
 ALTER TABLE `pizzeria_users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Megkötések a kiírt táblákhoz
